@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    background-color: #f2f2b6;
+    background-color: #000000;
     margin: 3%;
     text-align: center;
 }
@@ -11,8 +11,9 @@ h1{
     font-family: Montserrat;
     font-size: 3em;
     padding-bottom: 1%;
-    text-shadow: 2px 3px 5px #c29b00;
+    text-shadow: 5px 6px 10px #09c2c5;
     font-weight: bold;
+    color: #ffffff;
 }
 p{
     font-family:Montserrat;
@@ -20,14 +21,14 @@ p{
     font-weight: bold;
 }
 .row, input{
-    background-color: #b4a502;
+    background-color: #09c2c5;
     padding: 0.7%;
     margin: auto;
     margin-top: 1%;
     font-family:Montserrat;
-    color: #050505;
+    color: #ffffff;
 }
 
 #enviar{
-    background-color: #c1c509;
+    background-color: #09c2c5;
 }
