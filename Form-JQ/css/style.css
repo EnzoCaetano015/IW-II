@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f2f2b6;
+    margin: 3%;
+    text-align: center;
+}
+
+h1{
+    font-family: Montserrat;
+    font-size: 3em;
+    padding-bottom: 1%;
+    text-shadow: 2px 3px 5px #c29b00;
+    font-weight: bold;
+}
+p{
+    font-family:Montserrat;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.row, input{
+    background-color: #b4a502;
+    padding: 0.7%;
+    margin: auto;
+    margin-top: 1%;
+    font-family:Montserrat;
+    color: #050505;
+}
+
+#enviar{
+    background-color: #c1c509;
+}
