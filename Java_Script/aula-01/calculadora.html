@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        body {
+            background-color: grey;
+            color: black;
+            text-align: center;
+            font: normal 20pt Arial;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>EXIBE OPERAÇÕES ENTRE DOIS NÚMEROS</h1>
+
+<script>
+var n1 = parseInt(prompt('Digite um número: '))
+var n2 = parseInt(prompt('Digite mais um número: '))
+console.log ('O primeiro número é: ' , n1)
+console.log(typeof (n1))
+console.log ('O segundo número é: ' , n2)
+console.log(typeof (n2))
+
+//Adição
+var soma = (n1 + n2)
+console.log ('Soma: ' , soma)
+console.log(typeof (soma))
+alert ('Soma é: ' + soma)
+
+//Subtração
+var sub = (n1 - n2)
+console.log ('Sub: ' ,  sub)
+console.log(typeof ( sub))
+alert ('Sub é: ' +  sub)
+
+//Multiplicação
+var mult = (n1 * n2)
+console.log ('mult: ' ,  mult)
+console.log(typeof ( mult))
+alert ('mult é: ' +  mult)
+
+//Divisão
+var div = (n1 / n2)
+console.log ('div: ' ,  div)
+console.log(typeof ( div))
+alert ('div é: ' +  div)
+
+document.writeln ('<p> O primeiro número é: ' , n1 + '</p>')
+document.writeln ('<p> O segundo número é: ' , n2 + '</p>')
+document.writeln ('<p> A soma do primeiro com o segundo é: ' , soma + '</p>')
+document.writeln ('<p> A subtração do primeiro com o segundo é: ' , sub + '</p>')
+document.writeln ('<p> A multiplicação do primeiro com o segundo é: ' , mult + '</p>')
+document.writeln ('<p> A divisão do primeiro com o segundo é: ' , div + '</p>')
+
+
+
+
+
+</script>
+
+</body>
+</html>

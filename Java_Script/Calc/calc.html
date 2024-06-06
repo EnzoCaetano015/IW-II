@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stile.css">
+    <title>Calculaodra</title>
+</head>
+<body>
+    
+    <div class="calc">
+
+            <h1>Calculadora</h1>
+            Digite um numero;
+            <input id="numero1" name="numero1" value="" type="number">
+            <button id="botão" onclick="peganumero1()"> Clique aqui </button>
+
+            
+            <p> Digite um numero; <input id="numero2" name="numero2" value="" type="number">
+            <button id="botão" onclick="peganumero2()"> Clique aqui </button>
+            <!-- <p id="resultado"> aqui vai aparecer seu nome</p> --></p>
+
+            <div class="opera">     
+                <h1>Escolha a operação</h1>
+                <button id="adição" onclick="soma()">adição</button>
+                <button id="subtração " onclick="sub()" >subtração</button>
+                <button id="mult" onclick="mult()">multiplicação</button>
+                <button id="divi" onclick="divi()">divisão</button>
+                <button id="limpar" onclick="limp()"> limpar</button>
+            </div>    
+
+        <h1 id="resultado"> Resultado</h1>
+    </div>
+
+    <script src="js/script.js"></script>
+
+
+
+</body>
+</html>

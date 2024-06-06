@@ -1,0 +1,40 @@
+header,main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50%;
+    
+    
+}
+
+
+    
+button{
+    
+    width: 250px;
+    color: royalblue;
+    font-size: 20px;
+    
+    
+}
+    
+body{
+    
+        background-color: darkgoldenrod;
+    
+}
+    
+img{
+
+width: 400px;
+padding-bottom: 15px;
+
+}
+
+h3{
+
+font-size: 50px;
+
+
+}

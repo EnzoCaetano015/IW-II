@@ -1,0 +1,23 @@
+body,header,main{
+
+display: flex;
+align-items: center;
+flex-direction: column;
+background-image: url(https://st2.depositphotos.com/46939098/47486/i/450/depositphotos_474869508-stock-photo-brick-wall-bright-red-texture.jpg) ;
+
+}
+
+#lamp{
+
+width: 300px;
+padding-bottom: 34px;
+
+}
+
+#tomada{
+
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
